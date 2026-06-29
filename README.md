@@ -1,6 +1,6 @@
 # Portfolio Optimizer & Strategy Backtester
 
-Week 1 of the project plan (see `../project_plan.md`): a data pipeline that pulls historical prices for a diversified stock universe, cleans them, and computes daily/cumulative returns. Later weeks add risk analytics, Modern Portfolio Theory optimization, backtesting, and a Streamlit dashboard.
+
 
 ## Stock universe
 
@@ -18,7 +18,6 @@ Week 1 of the project plan (see `../project_plan.md`): a data pipeline that pull
 | DIS | Communication Services |
 | ^GSPC | S&P 500 (benchmark) |
 
-Feel free to swap tickers — just keep a mix of sectors so the diversification analysis in Week 2 is meaningful.
 
 ## Setup
 
@@ -61,4 +60,4 @@ git push -u origin main
 
 ## Next step
 
-Week 2: compute annualized return, volatility, Sharpe ratio, max drawdown, and the correlation matrix from `daily_returns.csv` — see the main project plan for details.
+.
